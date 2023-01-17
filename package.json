@@ -24,6 +24,8 @@
 	"dependencies": {
 		"@vtmn/css": "^0.87.1",
 		"@vtmn/svelte": "^0.57.1",
+		"postcss-import": "^15.1.0",
+		"svelte-preprocess": "^5.0.0",
 		"typeface-roboto": "^1.1.13",
 		"typeface-roboto-condensed": "^1.1.13"
 	}

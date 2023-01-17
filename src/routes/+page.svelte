@@ -2,29 +2,85 @@
 	import { VtmnCard } from '@vtmn/svelte';
 </script>
 
-<div class="vtmn-flex vtmn-h-full vtmn-justify-center vtmn-items-center">
-	<div class="card">
-		<VtmnCard variant="top-image" headingLevel={4} title="Card Title">
-			<div slot="img">
-				<img
-					src="https://storage.googleapis.com/dkt-design-cdn/images/landscape-placeholder.jpg"
-					alt="placeholder"
-				/>
-			</div>
-			<div slot="content">
-				<p>
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id qui fuga odio suscipit maxime
-					nemo obcaecati ea error consequuntur praesentium molestiae assumenda ex dolore animi non
-					voluptatibus modi, accusamus doloribus!
-				</p>
-			</div>
-		</VtmnCard>
-	</div>
+<div
+	class="vtmn-grid vtmn-grid-cols-1 gt-tablet:vtmn-grid-cols-2 gt-small-desktop:vtmn-grid-cols-3 vtmn-p-5 vtmn-gap-5"
+>
+	<VtmnCard title="Card title" contentOpaque headingLevel={1}>
+		<div slot="content">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, non deleniti aut asperiores
+			odio optio ratione repudiandae aliquid similique blanditiis in possimus neque, quaerat nemo
+			illo ipsum dolor est assumenda.
+		</div>
+		<div slot="img">
+			<img
+				src="https://storage.googleapis.com/dkt-design-cdn/images/landscape-placeholder.jpg"
+				alt="placeholder"
+			/>
+		</div>
+	</VtmnCard>
+	<VtmnCard title="Card title" contentOpaque headingLevel={1}>
+		<div slot="content">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, non deleniti aut asperiores
+			odio optio ratione repudiandae aliquid similique blanditiis in possimus neque, quaerat nemo
+			illo ipsum dolor est assumenda.
+		</div>
+		<div slot="img">
+			<img
+				src="https://storage.googleapis.com/dkt-design-cdn/images/landscape-placeholder.jpg"
+				alt="placeholder"
+			/>
+		</div>
+	</VtmnCard>
+	<VtmnCard title="Card title" contentOpaque headingLevel={1}>
+		<div slot="content">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, non deleniti aut asperiores
+			odio optio ratione repudiandae aliquid similique blanditiis in possimus neque, quaerat nemo
+			illo ipsum dolor est assumenda.
+		</div>
+		<div slot="img">
+			<img
+				src="https://storage.googleapis.com/dkt-design-cdn/images/landscape-placeholder.jpg"
+				alt="placeholder"
+			/>
+		</div>
+	</VtmnCard>
+	<VtmnCard title="Card title" contentOpaque headingLevel={1}>
+		<div slot="content">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, non deleniti aut asperiores
+			odio optio ratione repudiandae aliquid similique blanditiis in possimus neque, quaerat nemo
+			illo ipsum dolor est assumenda.
+		</div>
+		<div slot="img">
+			<img
+				src="https://storage.googleapis.com/dkt-design-cdn/images/landscape-placeholder.jpg"
+				alt="placeholder"
+			/>
+		</div>
+	</VtmnCard>
+	<VtmnCard title="Card title" contentOpaque headingLevel={1}>
+		<div slot="content">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, non deleniti aut asperiores
+			odio optio ratione repudiandae aliquid similique blanditiis in possimus neque, quaerat nemo
+			illo ipsum dolor est assumenda.
+		</div>
+		<div slot="img">
+			<img
+				src="https://storage.googleapis.com/dkt-design-cdn/images/landscape-placeholder.jpg"
+				alt="placeholder"
+			/>
+		</div>
+	</VtmnCard>
+	<VtmnCard title="Card title" contentOpaque headingLevel={1}>
+		<div slot="content">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, non deleniti aut asperiores
+			odio optio ratione repudiandae aliquid similique blanditiis in possimus neque, quaerat nemo
+			illo ipsum dolor est assumenda.
+		</div>
+		<div slot="img">
+			<img
+				src="https://storage.googleapis.com/dkt-design-cdn/images/landscape-placeholder.jpg"
+				alt="placeholder"
+			/>
+		</div>
+	</VtmnCard>
 </div>
-
-<style>
-	.card {
-		max-width: 300px;
-		height: auto;
-	}
-</style>
